@@ -1,5 +1,6 @@
 @charset "utf-8";
 .progress-bar {
+    margin-left: 1rem;
     width: 150px;
     height: 15px;
     background-color: #494F56;
