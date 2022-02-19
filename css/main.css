@@ -1,0 +1,402 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+#container {
+	background: #fff;
+	margin: 40px auto;
+	width: 880px;
+	font-family: 'Arial Narrow Bold', sans-serif;
+	box-shadow: 0 0 30px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 0 30px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.4);
+	border-bottom: 7px solid #D9307F;
+	box-shadow: 0 -5px 0 #efefef inset;
+	-moz-box-shadow: 0 -5px 0 #efefef inset;
+	-webkit-box-shadow: 0 -5px 0 #efefef inset;
+}
+
+/*----------Header------------*/
+
+#header {
+	background: #D9307F;
+	color: #fff;
+	height: 30px;
+	padding: 14px 18px 0 18px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#AD2E89), to(#D9307F));
+	background: -moz-linear-gradient(top,  #AD2E89,  #D9307F);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#AD2E89', endColorstr='#D9307F');
+}
+
+#header ul li {
+	display: inline;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+#header ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#header ul li a:hover {
+	color: #5CE1E6;
+}
+
+#header img {
+	float: right;
+	margin-left: 8px;
+	margin-top: -20px;
+}
+
+/*----------Section------------*/
+
+.section {
+	border-bottom: 4px solid #252758;
+	padding: 38px 0 38px;
+	margin: 0 18px;
+	color: #252758;
+}
+
+.section img {
+	float: left;
+	background: #fff;
+	border: 3px solid #cccccc;
+	left: 2rem;
+}
+
+
+.section img#profilepicture {
+	flex: none;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: none;
+}
+
+.section h1 {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	color: #D9307F;
+	letter-spacing: 0;
+	margin-top: 35px;
+	margin-left: 150px;
+}
+
+.section h2 {
+	/* font-family: 'Bebas Neue', cursive; */
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top: 2px;
+	margin-left: 150px;
+	color: #252758;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 0.2em;
+}
+
+.section ul {
+	/* font-family: 'Bebas Neue', cursive; */
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.8em;
+	float: right;
+	margin-top: -75px;
+	color: #666;
+}
+
+.section ul span {
+	color: #D9307F;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+
+.section ul a {
+	color: #57C5B3;
+	text-decoration: none;
+}
+
+.section ul a:hover {
+	color: #444;
+}
+
+.section .left {
+	width: 202px;
+	float: left;
+}
+
+.section .left p {
+	font-size: 14px;
+	padding-right: 20px;
+	margin-top: 10px;
+	color: #888;
+}
+
+.section .left h3 {
+	font-family: 'Bebas Neue', cursive;
+	/* font-family: 'LeagueGothicRegular', serif; */
+	font-size: 24px;
+	color: #AD2E89;
+}
+
+.section  .right {
+	float: right;
+	width: 622px;
+}
+
+.section p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-bottom: 10px;
+	line-height: 1.3em;
+}
+
+.section h4 {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #D9307F;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+/*----------Section Top------------*/
+
+.sectiontop {
+	height: 120px;
+	padding: 38px 0 48px;
+	background-image: url('../img/pp_back.png');
+	background-size: cover;
+}
+
+/*----------Personal------------*/
+
+.personal {
+	height: 100px;
+}
+
+
+/*----------Education------------*/
+
+.education {
+	min-height: 50px;
+	overflow: hidden;
+}
+
+.selection_education {
+	border-bottom: 1px solid #eeeeee;
+}
+
+.row {
+	padding-bottom: 15px;
+	margin-bottom: 18px;
+	position: relative;
+}
+
+.row h4 {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #D9307F;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+
+.row h5 {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #252758;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.row a {
+	text-decoration: none;
+	color: #fff;
+	padding: 7px 8px;
+	background: #AD2E89;
+	font-size: 13px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: default;
+	width: fit-content;
+}
+
+.row a:hover {
+	/* background: #aaa; */
+}
+
+/*----------Technical------------*/
+
+.technical {
+	min-height: 50px;
+	overflow: hidden;
+}
+
+.technical h4 {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #D9307F;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+
+.technical h5 {
+	font-family:Arial, Helvetica, sans-serif;
+	
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.right_right {
+	width: 290px;
+	float: right;
+}
+
+.right_left {
+	width: 290px;
+	float: left;
+}
+
+.right_left span {
+	font-weight: bold;
+	color: #333;
+}
+
+
+/*----------Experience------------*/
+
+.experience {
+	min-height: 50px;
+	overflow: hidden;
+}
+
+.selection_education {
+	border-bottom: 1px solid #eeeeee;
+}
+
+
+/*----------Hobbies------------*/
+
+.hobbies {
+	min-height: 30px;
+	overflow: hidden;
+	background-image: url('../img/hobbies.png');
+	background-size: cover;
+}
+
+.selection_hobbies {
+	border-bottom: 1px solid #eeeeee;
+
+}
+
+
+/*----------Gallery------------*/
+
+.gallery {
+	height: 195px;
+}
+
+.gallery img {
+	border: none;
+	margin: 0 10px 10px 0;
+}
+
+
+/*----------Contact------------*/
+
+.contact {
+	height: 240px;
+}
+
+.social_contact {
+	float: right;
+	text-decoration: none;
+	color: #252758;
+	padding: 5px 7px;
+	font-size: 13px;
+	background: #5CE1E6;
+	border-radius: 3px;
+	margin-left: 8px;
+	margin-top: -19px;
+}
+
+.social_contact:hover {
+	color: #000;
+	background: #fff;
+}
+
+.form {
+	float: left;
+}
+
+input, textarea {
+	 padding: 9px;
+	 border: 1px solid #ccc;
+	 outline: 0;
+	 color: #999;
+	 font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	 width: 240px;
+	 margin-bottom: 12px;
+	 background: url(../img/formback.gif) repeat-x 0 0;
+}
+
+textarea {
+	 width: 240px;
+	 height: 60px;
+	 line-height: 150%;
+	 min-height: 60px;
+	 max-height: 60px;
+	 max-width: 240px;
+	 min-width: 240px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	 border-color: #999;
+}
+
+.submit input {
+	 padding: 7px 9px;
+	 width: 60px;
+	 cursor: pointer;
+	 background: #D9307F;
+	 border: none;
+	 font-size: 10px;
+	 color: #FFF;
+	 font-weight: bold;
+	 text-transform: uppercase;
+
+}
+
+.submit input:hover {
+	background: #666;
+	color: #FFF;
+}
+
+.contact_text {
+	width:330px;
+	float: right;
+}
+
+#contact_icons {
+	float: left;
+	margin: 30px 0 0 24px;
+}
+
+#contact_icons a {
+	padding: 7px 9px;
+	color: D9307F;
+}
+
+#contact_icons a:hover {
+	background: #666;
+	color: #fff;
+}
+

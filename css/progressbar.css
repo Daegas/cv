@@ -1,0 +1,36 @@
+@charset "utf-8";
+.progress-bar {
+    width: 150px;
+    height: 15px;
+    background-color: #494F56;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;  
+}
+
+.progress-bar span {
+    display:inline-block;
+    height:100%;
+    background-color:#F60;
+    border-right:1px solid rgba(255,255,255,0.1);
+    box-shadow:0 0 20px rgba(0,0,0,0.2) inset;
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.2) inset;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.2) inset;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;  
+}
+
+.green span {
+background-color:#6C3;
+}
+
+.orange span {
+background-color:#F60;
+}
+
+.red span {
+background-color:red;
+}
+
+.normal span {
+    background-color:#5CE1E6;
+    }
