@@ -21,26 +21,29 @@
   <div id="container">
     <div id="header">
       <ul>
-        <li>Contact</a></li>
+        <li class="e">Contact</a></li>
+        <li class="s">Contacto</a></li>
       </ul>
-      <a class="social_contact tooltip"> <span class="tooltiptext">Print</span> <i class="fa-solid fa-print"
+      <a class="social_contact tooltip printn"> <span class="tooltiptext">Print</span> <i class="fa-solid fa-print"
           onclick="printCV()"></i></a>
-      <a href="https://www.facebook.com/dara.gsandoval" class="social_contact tooltip"> <span
-          class="tooltiptext">Facebook</span> <i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.facebook.com/dara.gsandoval" class="social_contact tooltip"><span
+          class="tooltiptext printn">Facebook</span> <i class="fa-brands fa-facebook"></i><span class="print">/dara.gsandoval</span></a>
       <a href="https://twitter.com/Dara_GamaS" class="social_contact tooltip"> <span class="tooltiptext">Twitter</span>
-        <i class="fa-brands fa-twitter"></i></a>
+        <i class="fa-brands fa-twitter"></i><span class="print">/Dara_GamaS</span></a>
       <a href="https://github.com/Daegas" class="social_contact tooltip"> <span class="tooltiptext">Github</span> <i
-          class="fa-brands fa-github"></i></a>
+          class="fa-brands fa-github"></i><span class="print">/Daegas</span></a>
       <a href="https://gitlab.com/DaraGS" class="social_contact tooltip"> <span class="tooltiptext">Gitlab</span> <i
-          class="fa-brands fa-gitlab"></i></a>
+          class="fa-brands fa-gitlab"></i><span class="print">/DaraGS</span></a>
       <a href="https://www.linkedin.com/in/daegas/" class="social_contact tooltip"> <span
-          class="tooltiptext">Likedin</span> <i class="fa-brands fa-linkedin"></i> </a>
-      <a class="social_contact tooltip e" onclick="ChangeLanguage('s')"> <span class="tooltiptext">Español</span> 🇲🇽
+          class="tooltiptext">Likedin</span> <i class="fa-brands fa-linkedin"></i> <span class="print">/daegas</span></a>
+      <a class="social_contact tooltip e printn" onclick="ChangeLanguage('s')"> <span class="tooltiptext">Español</span> 🇲🇽
       </a>
-      <a class="social_contact tooltip s" onclick="ChangeLanguage('e')"> <span class="tooltiptext">Inglés</span> 🇺🇸
+      <a class="social_contact tooltip s printn" onclick="ChangeLanguage('e')"> <span class="tooltiptext">Inglés</span> 🇺🇸
       </a>
       <a href="https://ugtomx-my.sharepoint.com/:f:/g/personal/de_gamasandoval_ugto_mx/EsRQxV6phbFMumChGMSFeXIBazPJZCLfKQhQiMmOAPylsw?e=eNavx8"
-        class="social_contact">Click to see my portfolio</a>
+        class="social_contact e"> <span class="printn">Click to see my portfolio </span> <span class="print">tinyurl.com/portafolio-Dara</span> </a>
+        <a href="https://ugtomx-my.sharepoint.com/:f:/g/personal/de_gamasandoval_ugto_mx/EsRQxV6phbFMumChGMSFeXIBazPJZCLfKQhQiMmOAPylsw?e=eNavx8"
+        class="social_contact s"> <span class="printn">Click para ver mi portafolio</span> <span class="print">tinyurl.com/portafolio-Dara</span> </a>
     </div>
 
     <div class="section sectiontop">
@@ -51,7 +54,7 @@
         <div class="s">Ingeniera en Sistemas Computacionales</div>
       </h2>
       <ul>
-        <li><span>E-mail:</span> <span>E-mail:</span>
+        <li><span>E-mail:</span> 
           <a href="mailito:darae.gs@gmail.com">darae.gs@gmail.com</a>
         </li>
 
@@ -306,12 +309,13 @@
 
       <div class="right">
 
-        <div class="row selection_education  s">
-          <h4>Multiple Robot Recognition</h4> <i
-          class="fa-brands fa-github"></i>
-          <br>
+        <div class="row selection_education  e">
+          <h4>Multiple Robot Recognition</h4> 
           <a>Nov 19-Nov 20</a>
-          <p>Participation in the project of Doctor Juan Pablo Ramírez Paredes. Creation of a Gazebo simulation of
+          <p>
+            <i class="fa-brands fa-github"></i>/Daegas/CustumObjectDetection <br>
+            <i class="fa-brands fa-github"></i>/Daegas/multi_camera_husky <br>
+            Participation in the project of Doctor Juan Pablo Ramírez Paredes. Creation of a Gazebo simulation of
             multiple Husky robots, which through artifitial intelligence are each capable of detecting each others
             position</p>
         </div>
@@ -319,18 +323,30 @@
           <h4>Reconocimiento múltiple de Robots</h4> 
           <br>
           <a>Nov 19-Nov 20</a>
-          <p>Participation in the project of Doctor Juan Pablo Ramírez Paredes. Creation of a Gazebo simulation of
-            multiple Husky robots, which through artifitial intelligence are each capable of detecting each others
-            position</p>
+          <p>
+            <i class="fa-brands fa-github"></i>/DaraGS/mipymad <br>
+            <i class="fa-brands fa-github"></i>/Daegas/multi_camera_husky <br>
+            Participación en el proyecto del Doctor Juan Pablo Ramírez Paredes.Simulación en Gazebo de multiples robots Husky, para detectarse unos a otros con Inteligencia Artificial</p>
         </div>
 
-        <div class="row selection_education">
+        <div class="row selection_education e">
           <h4>GIMSA System</h4>
           <br>
           <a>Nov 20-Present</a>
-          <p>Design, Development and Implementation of a system using NodeJS and Postgresql for a small bussiness, with
+          <p>
+            <i class="fa-brands fa-gitlab"></i>/DaraGS/mipymad <br>
+            Design, development and implementation of a system using NodeJS and Postgresql for a small bussiness, with
             catalogs of clients, vendors, users, products and services. Capable of tracking purchases and sales with
             inventory of products, accounts receivable and debts to pay.</p>
+        </div>
+        <div class="row selection_education s">
+          <h4>Sistema GIMSA</h4>
+          <br>
+          <a>Nov 20-Present</a>
+          <p>
+            <i class="fa-brands fa-gitlab"></i>/DaraGS/mipymad <br>
+            Diseño, desarrolo e implementation de sistema usando NodeJS y Postgresql para empresas pequeñas, con catálogo de cleintes,
+             vendedores, usuarios, productos y servicios. Capaz de rastrear compras y ventas con inventario de productos, cuentas por cobrar y por pagar. </p>
         </div>
 
 
@@ -340,31 +356,48 @@
     <!--___________________ Hobbies-->
     <div class="section hobbies">
       <div class="left">
-        <h3>Hobbies</h3>
+        <h3 class="e">Hobbies</h3>
+        <h3 class="s">Pasatiempos</h3>
       </div>
       <div class="right">
         <div class="right_right">
-          <div class="row selection_hobbies">
+          <div class="row selection_hobbies e">
             <h4>Exercise</h4>
-            <p>Cycling,running,tennis and football.</p>
+            <p>Cycling,running,dance and football.</p>
+          </div>
+          <div class="row selection_hobbies s">
+            <h4>Ejercicio</h4>
+            <p>Ciclismo, correr, danza y fútbol</p>
           </div>
 
-          <div class="row selection_hobbies">
+          <div class="row selection_hobbies e">
             <h4>Quality time</h4>
             <p>To strengthen friendship and family relationships.</p>
+          </div>
+          <div class="row selection_hobbies s">
+            <h4>Tiempo de calidad</h4>
+            <p>Para reforzar relaciones de familia y amigos.</p>
           </div>
 
         </div>
 
         <div class="right_left">
-          <div class="row selection_hobbies">
+          <div class="row selection_hobbies e">
             <h4>Read</h4>
             <p>Religion, novels, software related, classic, biographies. </p>
           </div>
+          <div class="row selection_hobbies s">
+            <h4>Lectura</h4>
+            <p>Religion, novelas, relacionados con software, clásicas y biografías. </p>
+          </div>
 
-          <div class="row selection_hobbies">
+          <div class="row selection_hobbies e">
             <h4>Visual entertainment</h4>
             <p>Youtube (comedy,news,new technology,Ted talks, languages) and netflix.</p>
+          </div>
+          <div class="row selection_hobbies s">
+            <h4>Entretenimiento visual</h4>
+            <p>Youtube (comedia, noticias, nuevas tecnologías, pláticas de Ted, lenguajes) y netflix.</p>
           </div>
         </div>
 
