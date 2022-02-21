@@ -1,6 +1,6 @@
 $( document ).ready(function() {
-    $('.e').css('display', "");
-    $('.s').css('display', "none");
+    $('.s').css('display', "");
+    $('.e').css('display', "none");
 });
 
 function printCV() {
