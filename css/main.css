@@ -97,7 +97,7 @@
 
 .section {
 	border-bottom: 4px solid #252758;
-	padding: 38px 0 38px;
+	padding: 32px 0 31px;
 	margin: 0 18px;
 	color: #252758;
 }
@@ -204,6 +204,9 @@
 	margin-bottom: 8px;
 }
 
+b {
+	font-weight: bold;
+}
 /*----------Section Top------------*/
 
 .sectiontop {
@@ -331,6 +334,17 @@
 	overflow: hidden;
 }
 
+.selection_education span {
+	font-family:'Bebas Neue', cursive;
+	text-decoration: none;
+	color: #fff;
+	padding: 1px  3px;
+	background: #AD2E89;
+	font-size: 13px;
+	cursor: default;
+	width: fit-content;
+}
+
 .selection_education {
 	border-bottom: 1px solid #eeeeee;
 }
@@ -339,15 +353,11 @@
 /*----------Hobbies------------*/
 
 .hobbies {
-	min-height: 30px;
+	min-height: 10px;
 	overflow: hidden;
 	background-image: url('../img/hobbies.png');
+	background-position: -10px 0;
 	background-size: cover;
-}
-
-.selection_hobbies {
-	border-bottom: 1px solid #eeeeee;
-
 }
 
 
