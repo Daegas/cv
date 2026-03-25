@@ -97,8 +97,8 @@
 
 .section {
 	border-bottom: 4px solid #252758;
-	padding: 32px 0 31px;
-	margin: 0 18px;
+	padding: 15px 0 15px;
+	/* margin: 0 18px; */
 	color: #252758;
 }
 
@@ -132,14 +132,24 @@
 	/* font-family: 'Bebas Neue', cursive; */
 	font-family:Arial, Helvetica, sans-serif;
 	margin-top: 2px;
-	margin-left: 150px;
+	margin-left: 155px;
 	color: #252758;
 	font-weight: bold;
 	font-size: 14px;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 }
 
-.section ul {
+
+.sectiontop h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top: 2px;
+	margin-left: 360px;
+	color: #252758;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+}
+
+.sectiontop ul {
 	/* font-family: 'Bebas Neue', cursive; */
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 13px;
@@ -149,19 +159,19 @@
 	color: #666;
 }
 
-.section ul span {
+.sectiontop ul span {
 	color: #D9307F;
 	font-weight: bold;
 	font-size: 13px;
 }
 
 
-.section ul a {
+.sectiontop ul a {
 	color: #57C5B3;
 	text-decoration: none;
 }
 
-.section ul a:hover {
+.sectiontop ul a:hover {
 	color: #444;
 }
 
@@ -210,7 +220,7 @@ b {
 /*----------Section Top------------*/
 
 .sectiontop {
-	height: 120px;
+	height: 130px;
 	padding: 38px 0 48px;
 	background-image: url('../img/pp_back.png');
 	background-size: cover;
@@ -226,8 +236,43 @@ b {
 /*----------Education------------*/
 
 .education {
-	min-height: 50px;
 	overflow: hidden;
+}
+
+.projects {
+	overflow: hidden;
+}
+
+.projects a {
+	color: #57C5B3;
+	text-decoration: none;
+}
+
+.projects .project-links {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #666;
+}
+
+.projects .project-links a {
+	position: static;
+	background: transparent;
+	padding: 0;
+	color: #57C5B3;
+	cursor: pointer;
+	font-size: 13px;
+	display: inline;
+}
+
+.projects .project-links a:hover {
+	color: #444;
+	text-decoration: underline;
+}
+
+.projects .project-links a:not(:last-child)::after {
+	content: " | ";
+	color: #666;
 }
 
 .selection_education {
@@ -235,9 +280,15 @@ b {
 }
 
 .row {
-	padding-bottom: 15px;
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 	position: relative;
+}
+
+.row .selection_projects {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 1.8em;
+	color: #666;
 }
 
 .row h4 {
@@ -256,7 +307,10 @@ b {
 	margin-bottom: 10px;
 }
 
-.row a {
+.selection_education .e > a,
+.selection_education .s > a,
+.selection_education.e > a,
+.selection_education.s > a {
 	text-decoration: none;
 	color: #fff;
 	padding: 7px 8px;
@@ -269,7 +323,10 @@ b {
 	width: fit-content;
 }
 
-.row a:hover {
+.selection_education .e > a:hover,
+.selection_education .s > a:hover,
+.selection_education.e > a:hover,
+.selection_education.s > a:hover {
 	/* background: #aaa; */
 }
 
@@ -343,10 +400,6 @@ b {
 	font-size: 13px;
 	cursor: default;
 	width: fit-content;
-}
-
-.selection_education {
-	border-bottom: 1px solid #eeeeee;
 }
 
 
